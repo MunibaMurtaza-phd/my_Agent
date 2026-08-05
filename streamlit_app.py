@@ -13,7 +13,7 @@ from langchain_community.vectorstores import Chroma
 client = genai.Client(
     api_key=st.secrets["GOOGLE_API_KEY"]
 )
-
+st.write(st.secrets["GOOGLE_API_KEY"][:10])
 # ----------------------------
 # Streamlit UI
 # ----------------------------
